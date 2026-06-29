@@ -9,6 +9,7 @@ import AppointmentModal from '../components/AppointmentModal';
 // Halkan waxaa lagu soo kordhiyey boggaga cusub ee Kooxda iyo Profile-ka Dhakhtarka
 import OurTeam from '../pages/OurTeam';
 import DoctorsDetail from '../pages/DoctorsDetail';
+import About from '../pages/About';
 
 import Footer from '../components/Footer';
 
@@ -23,8 +24,8 @@ const AppRouter = () => {
         <Routes>
           
           <Route path="/" element={<Home />} />
-          
-          
+
+          <Route path="/About-us" element={<About />} />
           <Route path="/our-team" element={<OurTeam />} />
           
           
