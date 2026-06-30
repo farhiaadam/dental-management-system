@@ -10,6 +10,9 @@ import AppointmentModal from '../components/AppointmentModal';
 import OurTeam from '../pages/OurTeam';
 import DoctorsDetail from '../pages/DoctorsDetail';
 import About from '../pages/About';
+import AestheticServices from '../pages/services/AestheticServices';
+import DentalCare from '../pages/services/DentalCare';
+
 
 import Footer from '../components/Footer';
 
@@ -28,7 +31,10 @@ const AppRouter = () => {
           <Route path="/About-us" element={<About />} />
           <Route path="/our-team" element={<OurTeam />} />
           
+          <Route path="/services/dental" element={<DentalCare />} />
           
+          <Route path="/services/aesthetic" element={<AestheticServices />} />
+
           <Route path="/team/:id" element={<DoctorsDetail />} />
 
           
